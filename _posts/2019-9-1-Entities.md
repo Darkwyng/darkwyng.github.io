@@ -6,11 +6,11 @@ title: Entities in Stars!
 ## Requirements
 Like a lot of other software, [_Stars!_](https://github.com/Darkwyng/stars) contains lots of features that are totally independent from each other.
 But an implementation of Stars! also needs to allow for interaction between these components, for example:
- - The disadvantage of _Only Basic Remote Mining_ gives you an extra 10 % planet capacity as compensation. 
- - You can put _gadget_s into your ships. They provide several benefits, that will be handled by different (Java-)components, impacting several features. And also
- -- you need to _research_ gadgets to be able to use them 
- -- each gadget has a weight, which affects _fuel usage_
- -- depedending on the _race_ you are playing, some gadgets may be available to only you
+- The disadvantage of _Only Basic Remote Mining_ gives you an extra 10 % planet capacity as compensation. 
+- You can put _gadgets_ into your ships. They provide several benefits, that will be handled by different (Java-)components, impacting several features. And also
+    - you need to _research_ gadgets to be able to use them 
+    - each gadget has a weight, which affects _fuel usage_
+    - depedending on the _race_ you are playing, some gadgets may be available to only you
 
 Due to such requirements and because I also want to allow for addons that are not part of the original game, I am aiming for a very high level of [Extensibility](https://en.wikipedia.org/wiki/Extensibility).
 
